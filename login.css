@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&family=Montserrat:wght@100&family=Playball&family=Rajdhani&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Rajdhani ;
+}
+
+body{
+    /* background: rgb(231, 231, 231); */
+    background: url(WhatsApp\ Image\ 2022-06-17\ at\ 9.16.56\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    padding-top: 12px;
+    background: #ffffffd3;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px 5px #922ba7;
+}
+
+.container h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+div{
+    width: 100%;
+    height: 130px;
+    padding: 50px;
+    text-align: left;
+}
+
+div input{
+    margin-top: 9px;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    background: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+div input:focus::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.container div p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button{
+    margin-top: 50px;
+    padding: 10px 25px;
+    border-radius: 7px;
+    border:none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.button:hover{
+    
+    background: #922ba7;
+    box-shadow: 0 0 10px #922ba7, 0 0 20px #922ba7, 0 0 40px #922ba7;
+    color: rgb(0, 0, 0);
+    border-color: #922ba7; 
+    transition: 1s;
+}
+
+.button span{
+    position: absolute;
+    display: block;
+    transition-delay: 1s;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #979797);
+} 
+
